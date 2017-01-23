@@ -1,0 +1,8 @@
+app:
+  build: .
+  ports:
+    - 8080:5000
+  environment:
+    - FLASK_DEBUG=1
+  volumes:
+    - ./src:/src
