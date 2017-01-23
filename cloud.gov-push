@@ -1,0 +1,9 @@
+#! /bin/bash
+
+set -e
+
+docker-compose build
+docker-compose push
+cf push flask-example2 -o toolness/flask-example
+
+echo 'Success! To view the app visit: https://flask-example2.app.cloud.gov/'
