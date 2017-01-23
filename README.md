@@ -1,12 +1,11 @@
-This is a [reveal.js][] theme with [18F branding][].
+This is an 18F presentation about Docker.
 
-Like the 18F brand's [visual style guide][], it is designed with
-accessibility in mind; all color combinations conform with the standards of
-Section 508 of the Rehabilitation Act.
+It also contains an example Dockerized Flask-based app that can be deployed
+to cloud.gov; see [flask-example/README.md][] for more information.
 
 ### Getting started
 
-To develop, just run:
+To develop the slides, just run:
 
 ```
 npm install
@@ -34,5 +33,4 @@ Note that parts of this project have been taken from the [reveal.js][]
 repository, and are Copyright (C) 2016 Hakim El Hattab.
 
 [reveal.js]: https://github.com/hakimel/reveal.js
-[18F branding]: https://pages-staging.18f.gov/brand/
-[visual style guide]: https://pages-staging.18f.gov/brand/visual-style/
+[flask-example/README.md]: flask-example/README.md
