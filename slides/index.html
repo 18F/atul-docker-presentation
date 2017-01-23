@@ -62,6 +62,31 @@
         </section>
 
         <section>
+          <section>
+            <h1>Super simple demo</h1>
+          </section>
+          <section>
+            <pre>docker run -it --rm alpine:3.4 sh</pre>
+          </section>
+          <section>
+            <p>Try <code>apk update &amp;&amp; apk add nano</code> in there.</p>
+          </section>
+          <section>
+            <p>
+              When you exit the container, <code>nano</code> disappears, as
+              do any of your changes to the filesystem.
+            </p>
+            <p class="fragment">😖</p>
+          </section>
+          <section>
+            <blockquote>
+            Optimally Docker containers are completely stateless and immutable.
+            <footer>&mdash; <a href="https://goto.docker.com/docker-for-the-virtualization-admin.html">Docker for the Virtualization Admin</a></footer>
+            </blockquote>
+          </section>
+        </section>
+
+        <section>
           <svg class="logo-18f"><use xlink:href="images/18F.svg#logo"></use></svg>
         </section>
       </div>
