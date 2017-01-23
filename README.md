@@ -1,7 +1,7 @@
 This is an 18F presentation about Docker.
 
 It also contains an example Dockerized Flask-based app that can be deployed
-to cloud.gov; see [flask-example/README.md][] for more information.
+to cloud.gov; see the [flask-example][] directory for more information.
 
 ### Getting started
 
@@ -33,4 +33,4 @@ Note that parts of this project have been taken from the [reveal.js][]
 repository, and are Copyright (C) 2016 Hakim El Hattab.
 
 [reveal.js]: https://github.com/hakimel/reveal.js
-[flask-example/README.md]: flask-example/README.md
+[flask-example]: flask-example/

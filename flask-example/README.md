@@ -1,7 +1,5 @@
-This repository contains an extremely simple Flask-based Docker Compose
+This directory contains an extremely simple Flask-based Docker Compose
 example project, which can optionally be deployed to [cloud.gov][].
-
-It also contains some slides for a related 18F presentation about Docker.
 
 ## Quick start
 
