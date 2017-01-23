@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="622px" height="361px" viewBox="0 0 622 361" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>calc-containers</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="620" height="60"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="620" height="60" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="0" y="0" width="100" height="220"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="100" height="220" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="0" y="0" width="100" height="220"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="100" height="220" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <rect id="path-7" x="0" y="0" width="100" height="220"></rect>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="100" height="220" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <rect id="path-9" x="0" y="0" width="100" height="220"></rect>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="100" height="220" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <rect id="path-11" x="0" y="0" width="100" height="220"></rect>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="100" height="220" fill="white">
+            <use xlink:href="#path-11"></use>
+        </mask>
+        <rect id="path-13" x="0" y="0" width="142" height="220"></rect>
+        <mask id="mask-14" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="142" height="220" fill="white">
+            <use xlink:href="#path-13"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(0.000000, 300.000000)">
+            <use id="Rectangle" stroke="#979797" mask="url(#mask-2)" stroke-width="2" fill="#D8D8D8" xlink:href="#path-1"></use>
+            <text id="Linux-Kernel" font-family="Lato-Regular, Lato" font-size="17" font-weight="normal" fill="#5B616B">
+                <tspan x="263.57725" y="34.4193548">Linux Kernel</tspan>
+            </text>
+        </g>
+        <g id="Group-2" transform="translate(0.000000, 68.000000)">
+            <use id="Rectangle-2" stroke="#979797" mask="url(#mask-4)" stroke-width="2" fill="#D8D8D8" xlink:href="#path-3"></use>
+            <text id="app-container" font-family="CourierNewPSMT, Courier New" font-size="17" font-weight="normal" fill="#5B616B">
+                <tspan x="34.6975098" y="114">app</tspan>
+                <tspan x="65.3024902" y="114" font-family="Lato-Regular, Lato"></tspan>
+                <tspan x="14.878" y="133" font-family="Lato-Regular, Lato">container</tspan>
+            </text>
+        </g>
+        <g id="Group-2" transform="translate(120.000000, 68.000000)">
+            <use id="Rectangle-2" stroke="#979797" mask="url(#mask-6)" stroke-width="2" fill="#D8D8D8" xlink:href="#path-5"></use>
+            <text id="db-container" font-family="CourierNewPSMT, Courier New" font-size="17" font-weight="normal" fill="#5B616B">
+                <tspan x="39.7983398" y="114">db</tspan>
+                <tspan x="60.2016602" y="114" font-family="Lato-Regular, Lato"></tspan>
+                <tspan x="14.878" y="133" font-family="Lato-Regular, Lato">container</tspan>
+            </text>
+        </g>
+        <g id="Group-2" transform="translate(240.000000, 68.000000)">
+            <use id="Rectangle-2" stroke="#979797" mask="url(#mask-8)" stroke-width="2" fill="#D8D8D8" xlink:href="#path-7"></use>
+            <text id="redis-container" font-family="Lato-Regular, Lato" font-size="17" font-weight="normal" fill="#5B616B">
+                <tspan x="32.11175" y="114">redis</tspan>
+                <tspan x="14.878" y="135">container</tspan>
+            </text>
+        </g>
+        <g id="Group-2" transform="translate(360.000000, 68.000000)">
+            <use id="Rectangle-2" stroke="#979797" mask="url(#mask-10)" stroke-width="2" fill="#D8D8D8" xlink:href="#path-9"></use>
+            <text id="rq_worker-container" font-family="CourierNewPSMT, Courier New" font-size="17" font-weight="normal" fill="#5B616B">
+                <tspan x="4.0925293" y="114">rq_worker</tspan>
+                <tspan x="95.9074707" y="114" font-family="Lato-Regular, Lato"></tspan>
+                <tspan x="14.878" y="133" font-family="Lato-Regular, Lato">container</tspan>
+            </text>
+        </g>
+        <g id="Group-2" transform="translate(240.000000, 68.000000)">
+            <use id="Rectangle-2" stroke="#979797" mask="url(#mask-12)" stroke-width="2" fill="#D8D8D8" xlink:href="#path-11"></use>
+            <text id="redis-container" font-family="CourierNewPSMT, Courier New" font-size="17" font-weight="normal" fill="#5B616B">
+                <tspan x="24.4958496" y="114">redis</tspan>
+                <tspan x="75.5041504" y="114" font-family="Lato-Regular, Lato"></tspan>
+                <tspan x="14.878" y="133" font-family="Lato-Regular, Lato">container</tspan>
+            </text>
+        </g>
+        <g id="Group-2" transform="translate(480.000000, 68.000000)">
+            <use id="Rectangle-2" stroke="#979797" mask="url(#mask-14)" stroke-width="2" fill="#D8D8D8" xlink:href="#path-13"></use>
+            <text id="rq_scheduler-contain" font-family="CourierNewPSMT, Courier New" font-size="17" font-weight="normal" fill="#5B616B">
+                <tspan x="10.2900391" y="114">rq_scheduler</tspan>
+                <tspan x="132.709961" y="114" font-family="Lato-Regular, Lato"></tspan>
+                <tspan x="36.378" y="133" font-family="Lato-Regular, Lato">container</tspan>
+            </text>
+        </g>
+        <text id="CALC-Containers-dock" font-family="Lato-Regular, Lato" font-size="24" font-weight="normal" fill="#5B616B">
+            <tspan x="219.994" y="24">CALC Containers</tspan>
+            <tspan x="180.378906" y="53" font-family="CourierNewPSMT, Courier New">docker-compose.yml</tspan>
+        </text>
+        <text id="python:-3.5.2" font-family="CourierNewPSMT, Courier New" font-size="14" font-weight="normal" fill="#5B616B">
+            <tspan x="20.5952148" y="264">python:</tspan>
+            <tspan x="28.996582" y="280">3.5.2</tspan>
+        </text>
+        <text id="redis:-3.0.7" font-family="CourierNewPSMT, Courier New" font-size="14" font-weight="normal" fill="#5B616B">
+            <tspan x="264.795898" y="264">redis:</tspan>
+            <tspan x="268.996582" y="280">3.0.7</tspan>
+        </text>
+        <text id="python:-3.5.2" font-family="CourierNewPSMT, Courier New" font-size="14" font-weight="normal" fill="#5B616B">
+            <tspan x="380.595215" y="264">python:</tspan>
+            <tspan x="388.996582" y="280">3.5.2</tspan>
+        </text>
+        <text id="python:-3.5.2" font-family="CourierNewPSMT, Courier New" font-size="14" font-weight="normal" fill="#5B616B">
+            <tspan x="521.595215" y="264">python:</tspan>
+            <tspan x="529.996582" y="280">3.5.2</tspan>
+        </text>
+        <text id="postgres:-9.4" font-family="CourierNewPSMT, Courier New" font-size="14" font-weight="normal" fill="#5B616B">
+            <tspan x="132.193848" y="264">postgres:</tspan>
+            <tspan x="157.397949" y="280">9.4</tspan>
+        </text>
+    </g>
+</svg>
