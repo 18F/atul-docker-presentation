@@ -14,7 +14,7 @@ services:
     ports:
       # This exposes the first port on localhost to the second port on the
       # container.
-      - 8080:5000
+      - 5000:5000
 
     environment:
       # We want Flask to auto-reload our source code when it changes and
