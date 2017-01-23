@@ -2,8 +2,16 @@
 
 set -e
 
+# Rebuild our Docker image and tag it.
 docker-compose build
+
+# Push the newly-created image to Docker Hub.
 docker-compose push
+
+# Tell Cloud Foundry to push the Docker image on Docker Hub to our
+# cloud.gov app. For more details on this functionality, see:
+#
+#   https://cloud.gov/docs/apps/experimental/docker/
 cf push flask-example2 -o toolness/flask-example
 
 echo 'Success! To view the app visit: https://flask-example2.app.cloud.gov/'

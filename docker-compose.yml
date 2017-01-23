@@ -1,11 +1,30 @@
 version: '2'
 services:
   app:
+    # Build this container from the "Dockerfile" in the same directory
+    # as this file.
     build: .
+
+    # Tag the built image so we can easily use "docker-compose push" to
+    # push it to Docker Hub at:
+    # 
+    #   https://hub.docker.com/r/toolness/flask-example/
     image: toolness/flask-example:latest
+
     ports:
+      # This exposes the first port on localhost to the second port on the
+      # container.
       - 8080:5000
+
     environment:
+      # We want Flask to auto-reload our source code when it changes and
+      # give nice tracebacks/debugging info when stuff fails, so enable
+      # that here.
       - FLASK_DEBUG=1
+
     volumes:
+      # We want to override whatever's in the container's /src directory
+      # with our own "live" /src folder so that Flask can detect changes
+      # and auto-reload our site, without us having to manually re-run
+      # "docker-compose build" every time we make a source code change.
       - ./src:/src
